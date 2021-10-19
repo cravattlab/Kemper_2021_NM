@@ -1,0 +1,35 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Sep 13 11:26:23 2021
+
+@author: estherkemper
+"""
+
+old = pd.read_excel('{}/2_scripts/supplemental_tables/old_supplementary_tables.xlsx'.format(dir), sheet_name = 'Table1. Asynch vs Mitosis', header =2)
+old_changing = pd.read_excel('{}/2_scripts/supplemental_tables/old_supplementary_tables.xlsx'.format(dir), sheet_name = 'Table2. Asynch-Mitosis changes', header =1)
+
+len(set(old_changing.accession))
+new_changing_generes = df2.loc[(df2[x_med] >= 2) | (df2[x_med] <= 0.5)]
+
+new_changing = df2.loc[df2.accession.isin(set(new_changing_generes.accession))]
+
+old_generes = old.gene_res
+new_generes = df3.gene_res
+
+not_in_old = list(set(new_generes) - set(old_generes))
+not_in_new = list(set(old_generes) - set(new_generes))
+
+only_new_df = df3[df3.gene_res.isin(not_in_old)]
+only_old_df = old[old.gene_res.isin(not_in_new)]
+filtered_only_new = df2[df2.gene_res.isin(not_in_old)]
+
+old_exp = pd.read_csv('{}/20210415/total_combined/20210415_exp_list.csv'.format(dir))
+new_exp = pd.read_csv('{}/2_scripts/for_figures/{}_exp_list.csv'.format(dir,date))
+
+not_in_old = list(set(new_exp.accession) - set(old_exp.accession))
+not_in_new = list(set(old_exp.accession) - set(new_exp.accession))
+
+
+
+
