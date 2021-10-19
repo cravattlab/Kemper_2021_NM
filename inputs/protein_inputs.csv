@@ -1,0 +1,10 @@
+﻿group,dataset,modification,plex,num,denom,c1,c2,c3,c4,c5,c6,c7,c8,c9,c10,c11,c12,c13,c14,c15,c16
+whole_proteome,Exp386,79.96633,6,Mitosis_CTRL1,Asynch_CTRL2,Asynch_CTRL2,Mitosis_CTRL1,Asynch_CTRL2,Mitosis_CTRL1,Asynch_CTRL2,Mitosis_CTRL1,,,,,,,,,,
+whole_proteome,Exp442,79.96633,6,Mitosis_CTRL1,Asynch_CTRL2,Asynch_CTRL2,Asynch_CTRL2,Asynch_CTRL2,Mitosis_CTRL1,Mitosis_CTRL1,Mitosis_CTRL1,,,,,,,,,,
+whole_proteome,Exp484,79.96633,6,Mitosis_CTRL1,Asynch_CTRL2,Mitosis_CTRL1,Mitosis_CTRL1,Mitosis_CTRL1,Asynch_CTRL2,Asynch_CTRL2,Asynch_CTRL2,,,,,,,,,,
+whole_proteome,Exp512WP,79.96633,6,Mitosis_CTRL1,Asynch_CTRL2,Mitosis_CTRL1,Mitosis_CTRL1,,,Asynch_CTRL2,Asynch_CTRL2,,,,,,,,,,
+whole_proteome,Exp516WP,79.96633,6,Mitosis_CTRL1,Asynch_CTRL2,Mitosis_CTRL1,Mitosis_CTRL1,,,Asynch_CTRL2,Asynch_CTRL2,,,,,,,,,,
+wp_lpp,Exp512WP,79.96633,6,Mitosis_CTRL1,Mitosis_LPP1,Mitosis_CTRL1,Mitosis_CTRL1,Mitosis_LPP1,Mitosis_LPP1,,,,,,,,,,,,
+wp_lpp,Exp516WP,79.96633,6,Mitosis_CTRL1,Mitosis_LPP1,Mitosis_CTRL1,Mitosis_CTRL1,Mitosis_LPP1,Mitosis_LPP1,,,,,,,,,,,,
+wp_asynch,Exp512WP,79.96633,6,Mitosis_CTRL1,Asynch_CTRL2,Mitosis_CTRL1,Mitosis_CTRL1,,,Asynch_CTRL2,Asynch_CTRL2,,,,,,,,,,
+wp_asynch,Exp516WP,79.96633,6,Mitosis_CTRL1,Asynch_CTRL2,Mitosis_CTRL1,Mitosis_CTRL1,,,Asynch_CTRL2,Asynch_CTRL2,,,,,,,,,,
