@@ -9,9 +9,6 @@ Created on Mon Sep 20 15:03:08 2021
 # -*- coding: utf-8 -*-
 """
 Created on Mon Jul  1 14:03:56 2019
-##This is for individual reps of mitosis +/- lpp (no asynch, no LPP after)
-##LPP1 is the experimental group, just comparing CTRL1 and LPP1 
-This combines everything together, then filters based on LPP/CTRL
 @author: estherkemper
 """
 import numpy as np
