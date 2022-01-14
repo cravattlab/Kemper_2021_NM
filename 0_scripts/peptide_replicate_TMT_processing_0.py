@@ -4,7 +4,7 @@
 import numpy as np 
 import pandas as pd
 import os
-from peptide_tmt_census_cleanup1 import read_census
+from peptide_tmt_census_cleanup import read_census
 # from qc_cysABPP_invert_rep import qc_filtering
 
 #main directory, where script is run from
